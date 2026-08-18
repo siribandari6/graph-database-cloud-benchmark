@@ -59,21 +59,13 @@ The raw dataset is intentionally excluded from GitHub because of its size.
 
 Run:
 
-```bash
-python src/create_sample.py
-├── requirements.txt
-└── README.md
+---bash
+python src/create_sample.py---
 
-
----
-
----
-
-# 🗂️ Project Structure
+🗂️ Project Structure
 
 The project is organized into source code, benchmark results, and configuration files.
 
-```text
 graph-database-cloud-benchmark/
 │
 ├── results/
