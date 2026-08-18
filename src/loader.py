@@ -14,7 +14,7 @@ COGNODB_URI = os.getenv("COGNODB_URI")
 COGNODB_USERNAME = os.getenv("COGNODB_USERNAME")
 COGNODB_PASSWORD = os.getenv("COGNODB_PASSWORD")
 
-DATASET_PATH = Path("data/raw/ca-HepPh.txt.gz")
+DATASET_PATH = Path("data/raw/ca-HepPh_sample.txt.gz")
 
 BATCH_SIZE = 1000
 
