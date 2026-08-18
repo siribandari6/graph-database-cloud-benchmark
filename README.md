@@ -61,7 +61,11 @@ Run:
 
 ```bash
 python src/create_sample.py
+├── requirements.txt
+└── README.md
 
+
+---
 # 🗂️ Project Structure
 graph-database-cloud-benchmark/
 │
@@ -82,7 +86,4 @@ graph-database-cloud-benchmark/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
-
----
 
