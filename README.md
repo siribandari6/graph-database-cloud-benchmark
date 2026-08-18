@@ -37,6 +37,28 @@ The benchmark measures:
 - **Dataset loading time**
 - **Relationships per second**
 
+## ⚠️ Scope and Resource Limitation
+
+This submission benchmarks CognoDB Cloud and Neo4j using the same 100,000-relationship graph dataset and comparable workloads.
+
+The assignment requested four additional graph database platforms. Due to free-tier availability, subscription requirements, and resource constraints within the evaluation window, the benchmark was limited to these two platforms.
+
+No unmeasured or fabricated results are included. All reported results are based on actual benchmark runs.
+
+## 📂 Dataset
+
+The benchmark uses the **ca-HepPh collaboration network dataset**.
+
+For reproducible testing, a 100,000-relationship sample was generated from the original dataset.
+
+### Sample Dataset
+
+- **Relationships:** 100,000
+- **Nodes:** 9,904
+- **Format:** GZIP-compressed edge list
+- **Graph model:** Person nodes connected by `COAUTHOR` relationships
+
+The raw dataset is intentionally excluded from Git because of its size.
 ---
 # 📂 Dataset
 
