@@ -59,29 +59,32 @@ The raw dataset is intentionally excluded from GitHub because of its size.
 
 Run:
 
----bash
-python src/create_sample.py---
+    python src/create_sample.py
 
-🗂️ Project Structure
+---
+
+# 🗂️ Project Structure
 
 The project is organized into source code, benchmark results, and configuration files.
 
-graph-database-cloud-benchmark/
-│
-├── results/
-│   ├── cognodb_results.md
-│   ├── neo4j_results.md
-│   └── neo4j_mixed_workload_results.md
-│
-├── src/
-│   ├── benchmark.py
-│   ├── create_sample.py
-│   ├── loader.py
-│   ├── mixed_workload.py
-│   ├── neo4j_benchmark.py
-│   ├── neo4j_loader.py
-│   └── neo4j_mixed_workload.py
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
+    graph-database-cloud-benchmark/
+    │
+    ├── results/
+    │   ├── cognodb_results.md
+    │   ├── neo4j_results.md
+    │   └── neo4j_mixed_workload_results.md
+    │
+    ├── src/
+    │   ├── benchmark.py
+    │   ├── create_sample.py
+    │   ├── loader.py
+    │   ├── mixed_workload.py
+    │   ├── neo4j_benchmark.py
+    │   ├── neo4j_loader.py
+    │   └── neo4j_mixed_workload.py
+    │
+    ├── .gitignore
+    ├── requirements.txt
+    └── README.md
+
+---
