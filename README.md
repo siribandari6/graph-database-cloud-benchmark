@@ -39,11 +39,6 @@ The raw dataset is intentionally excluded from Git because of its size.
 ```text
 graph-database-cloud-benchmark/
 │
-├── data/
-│   └── raw/
-│       ├── ca-HepPh.txt.gz
-│       └── ca-HepPh_sample.txt.gz
-│
 ├── results/
 │   └── cognodb_results.md
 │
@@ -55,4 +50,4 @@ graph-database-cloud-benchmark/
 │
 ├── .gitignore
 ├── requirements.txt
-└── README.mdpython -m venv .venv
+└── README.md
