@@ -81,3 +81,20 @@ The benchmark was executed using the same graph dataset and workload categories 
 - Relationships: 100,000
 - Neo4j relationship loading time: 602.33 seconds
 - Neo4j loading throughput: 166.02 relationships/second
+
+## Reproducibility
+
+### Requirements
+
+- Python 3.11+
+- Neo4j Desktop
+- Neo4j Python Driver
+- CognоDB Cloud account
+- Git
+
+### Install Dependencies
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv .venv
